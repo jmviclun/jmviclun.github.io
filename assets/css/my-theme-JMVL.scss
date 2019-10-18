@@ -182,15 +182,6 @@ header {
   }
 }
 
-   body {
-  counter-reset: paper 0;
-}
- 
-p:before {
-  content: counter(paper) ".- ";
-  counter-increment: paper 1;
-}
-
 #banner {
   z-index: 100;
   left:0;
